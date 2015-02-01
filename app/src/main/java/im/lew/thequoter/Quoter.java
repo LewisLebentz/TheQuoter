@@ -48,6 +48,9 @@ public class Quoter extends Activity {
 
         Quote quote8 = new Quote("Testing author settings", "Lewis Lebentz");
         quoteList.add(quote8);
+        
+        Quote quote8 = new Quote("Test again", "Lewis Lebentz");
+        quoteList.add(quote8);
 
         //Add more quotes here
 
