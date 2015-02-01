@@ -23,22 +23,25 @@ public class Quoter extends Activity {
         final TextView quoteText = (TextView) findViewById(R.id.quote);
         final TextView personText = (TextView) findViewById(R.id.person);
 
-        final ArrayList<Quote> quoteList = new ArrayList<Quote>();
+        final ArrayList<Quote> quoteList = new ArrayList<>();
 
-        Quote quote4 = new Quote("You're more of a fun vampire. You don't suck blood, you just suck.", "Troy Barnes");
-        quoteList.add(quote4);
-
-        Quote quote1 = new Quote("Cool Beans", "Rod Kimble");
+        Quote quote1 = new Quote("You're more of a fun vampire. You don't suck blood, you just suck.", "Troy Barnes");
         quoteList.add(quote1);
 
-        Quote quote2 = new Quote("How can mirrors be real if our eyes aren't real", "Jaden Smith");
+        Quote quote2 = new Quote("Cool Beans", "Rod Kimble");
         quoteList.add(quote2);
 
-        Quote quote3 = new Quote("That's like me blaming owls for how bad I suck at analogies.", "Britta Perry");
+        Quote quote3 = new Quote("How can mirrors be real if our eyes aren't real", "Jaden Smith");
         quoteList.add(quote3);
+
+        Quote quote4 = new Quote("That's like me blaming owls for how bad I suck at analogies.", "Britta Perry");
+        quoteList.add(quote4);
 
         Quote quote5 = new Quote("I was gonna be the first person in my family to graduate from community college. Everyone else graduated from normal college", "Troy Barnes");
         quoteList.add(quote5);
+
+        Quote quote6 = new Quote("This is my first proper app!", "Lewis Lebentz");
+        quoteList.add(quote6);
 
         //Add more quotes here
 
