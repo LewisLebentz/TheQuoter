@@ -42,6 +42,9 @@ public class Quoter extends Activity {
 
         Quote quote6 = new Quote("This is my first proper app!", "Lewis Lebentz");
         quoteList.add(quote6);
+        
+        Quote quote7 = new Quote("I am now testing GitHub integration in Android Studio", "Lewis Lebentz");
+        quoteList.add(quote7);
 
         //Add more quotes here
 
